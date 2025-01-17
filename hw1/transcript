@@ -1,0 +1,54 @@
+# //  Questa Sim-64
+# //  Version 2021.3_1 linux_x86_64 Aug 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim gui 
+# Start time: 21:38:25 on Jan 14,2025
+# ** Error (suppressible): (vsim-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 21:38:25 on Jan 14,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Loading project hw1
+# Compile of ece593_alu.sv was successful.
+# Compile of ece593_alu_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.ece593_alu_tb
+# vsim -voptargs="+acc" work.ece593_alu_tb 
+# Start time: 21:41:11 on Jan 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.ece593_alu_tb(fast)
+# Loading work.ece593_alu(fast)
+add wave -position end  sim:/ece593_alu_tb/A
+add wave -position end  sim:/ece593_alu_tb/B
+add wave -position end  sim:/ece593_alu_tb/clk
+add wave -position end  sim:/ece593_alu_tb/end_op
+add wave -position end  sim:/ece593_alu_tb/INPUT_DATABUS_WIDTH
+add wave -position end  sim:/ece593_alu_tb/op_sel
+add wave -position end  sim:/ece593_alu_tb/result
+add wave -position end  sim:/ece593_alu_tb/RESULTBUS_WIDTH
+add wave -position end  sim:/ece593_alu_tb/rst
+add wave -position end  sim:/ece593_alu_tb/start_op
+run -all
+# A=  256, B=    1, No Operation Result=         0
+# A=   16, B=    1, Addition Result=        17
+# A=  256, B=   16, Subtraction Result=       240
+# A=  257, B=   17, XOR Result=       272
+# A=    1, B=  273, Multiplication Result=       273
+# A=   17, B= 4112, AND Result=        16
+# Jogeshwar Reddy Pallapothula, ece593
+# ** Note: $finish    : /u/jogeshp/ECE593-winter25/hw1/ece593_alu_tb.sv(65)
+#    Time: 180 ns  Iteration: 0  Instance: /ece593_alu_tb
+# 1
+# Break in Module ece593_alu_tb at /u/jogeshp/ECE593-winter25/hw1/ece593_alu_tb.sv line 65

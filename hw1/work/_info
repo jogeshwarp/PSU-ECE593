@@ -1,0 +1,70 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.3_1 2021.08, Aug 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/u/jogeshp/ECE593-winter25/hw1
+T_opt
+!s110 1736919672
+V>JiMZ1a43L=8Q4PK5;@el2
+04 13 4 work ece593_alu_tb fast 0
+=1-5254006cf05e-67874a77-8c5fa-1003
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.3_1;73
+vece593_alu
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1736919650
+!i10b 1
+!s100 mQ5RzW;XJTI@nWMa@2]lN1
+IXzoWdZ=FdEci0MB[ibFJ=0
+S1
+R0
+w1736916660
+8/u/jogeshp/ECE593-winter25/hw1/ece593_alu.sv
+F/u/jogeshp/ECE593-winter25/hw1/ece593_alu.sv
+!i122 0
+L0 1 74
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.3_1;73
+r1
+!s85 0
+31
+!s108 1736919649.000000
+!s107 /u/jogeshp/ECE593-winter25/hw1/ece593_alu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/u/jogeshp/ECE593-winter25/hw1/ece593_alu.sv|
+!i113 0
+Z6 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vece593_alu_tb
+R2
+R3
+!i10b 1
+!s100 K9@i`AC`o]_LgLQ?Pk3>a1
+IjZUCJmo6h3[WXbBedgKNJ1
+S1
+R0
+w1736916878
+8/u/jogeshp/ECE593-winter25/hw1/ece593_alu_tb.sv
+F/u/jogeshp/ECE593-winter25/hw1/ece593_alu_tb.sv
+!i122 1
+L0 1 67
+R4
+R5
+r1
+!s85 0
+31
+!s108 1736919650.000000
+!s107 /u/jogeshp/ECE593-winter25/hw1/ece593_alu_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/u/jogeshp/ECE593-winter25/hw1/ece593_alu_tb.sv|
+!i113 0
+R6
+R1

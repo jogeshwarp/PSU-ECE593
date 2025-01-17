@@ -1,0 +1,15 @@
+/u/jogeshp/ECE593-winter25/hw1/ece593_alu.sv {1 {vlog -work work -vopt -sv -stats=none /u/jogeshp/ECE593-winter25/hw1/ece593_alu.sv
+QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
+-- Compiling module ece593_alu
+
+Top level modules:
+	ece593_alu
+
+} {} {}} /u/jogeshp/ECE593-winter25/hw1/ece593_alu_tb.sv {1 {vlog -work work -vopt -sv -stats=none /u/jogeshp/ECE593-winter25/hw1/ece593_alu_tb.sv
+QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
+-- Compiling module ece593_alu_tb
+
+Top level modules:
+	ece593_alu_tb
+
+} {} {}}
